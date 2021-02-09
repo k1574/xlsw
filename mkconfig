@@ -1,0 +1,8 @@
+<$HOME/app/mk/inc/config
+VERSION = 0.1
+PROGNAME = xlsw
+INCS = $USRINC $X11INC 
+LIBS = $USRLIB $X11LIB $CLIB
+DEFS = -DVERSION=\"$VERSION\"
+CFILES = main.c
+
